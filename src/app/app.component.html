@@ -1,13 +1,6 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>{{ title }}</h1>
-
-  <pre>{{this | json}}</pre>
-
-  <button (click)="select('PAPER')">PAPER</button>
-  <button (click)="select('ROCK')">ROCK</button>
-  <button (click)="select('SCISSORS')">SCISSORS</button>
-  <button (click)="select('LIZARD')">LIZARD</button>
-  <button (click)="select('SPOCK')">SPOCK</button>
-
-  <router-outlet></router-outlet>
+<h1>{{ title }}</h1>
+<div>
+  <a [routerLink]="['']">Home</a> -
+  <a [routerLink]="['/spock-game']">spock game</a>
+</div>
+<router-outlet></router-outlet>
