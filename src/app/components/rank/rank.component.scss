@@ -1,0 +1,21 @@
+.principal {
+  border: 2px solid transparent;
+  // border: 2px solid lightgrey;
+  padding: 20px;
+  margin: 20px;
+  font-size: 2.4em;
+  display: inline-block;
+  vertical-align: middle;
+
+}
+
+.on {
+  color: orange !important;
+}
+
+.off {
+  color: grey;
+  font-weight: 900;
+  padding: 0 20px;
+  cursor: pointer;
+}

@@ -1,0 +1,24 @@
+.principal {
+  margin: 20px;
+  padding: 20px;
+  border: 2px dashed lightgrey;
+  font-size: 2.4em;
+  color: grey;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  font-family: arial;
+  opacity: .4;
+  transition: all .8s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    transition: all .4s ease-in-out;
+    opacity: .8;
+  }
+
+  small {
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+}

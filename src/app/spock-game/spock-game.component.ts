@@ -23,7 +23,6 @@ export class SpockGameComponent extends SpockGame {
     } else {
       this.choiceTwo = choice;
       this.round(this.choiceOne, this.choiceTwo);
-      console.log(this.result);
     }
     this.changeTurn();
   }
